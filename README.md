@@ -18,25 +18,40 @@ To write a program to perform selection sort and insertion sort using python pro
 4.	Break the loop and insert X.
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
-i)	#Selection Sort
+i.Selection sort
 ```
 
-
-
-
+#Deveolped by:T.KAVINAJAI
+#Register no:212223100020
+num=eval(input())
+for i in range(len(num)):
+    low=i
+    for j in range(i+1,len(num)):
+        if num[j]<num[low]:
+            low=j
+    num[i],num[low]=num[low],num[i]
+print(num)
 
 ```
-ii)	#Insertion Sort
+
+11.Insertion sort
 ```
-
-
-
-
-
-
+#Deveolped by:T.KAVINAJAI
+#Register no:212223100020
+num=eval(input())
+for i in range(1,len(num)):
+    insert=num[i]
+    j=i-1
+    while j>=0 and num[j]>=insert:
+        num[j+1]=num[j]
+        j=j-1
+    num[j+1]=insert
+print(num)
 ```
 
 ## Output:
+![image](https://github.com/Kavin1311/Sorting-Algorithms/assets/145695724/b2ee3043-11c0-422b-89da-0034aa48282e)
+![image](https://github.com/Kavin1311/Sorting-Algorithms/assets/145695724/ef82991c-9721-4d77-9d0c-ad58e772f5e1)
 
 
 ## Result:
