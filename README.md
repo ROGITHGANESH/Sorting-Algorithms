@@ -21,8 +21,8 @@ To write a program to perform selection sort and insertion sort using python pro
 i.Selection sort
 ```
 
-#Deveolped by:T.KAVINAJAI
-#Register no:212223100020
+#Deveolped by: ROGITH GANESH.R
+#Register no:212223100046
 num=eval(input())
 for i in range(len(num)):
     low=i
@@ -36,8 +36,8 @@ print(num)
 
 11.Insertion sort
 ```
-#Deveolped by:T.KAVINAJAI
-#Register no:212223100020
+#Deveolped by: ROGITH GANESH.R
+#Register no:212223100046
 num=eval(input())
 for i in range(1,len(num)):
     insert=num[i]
